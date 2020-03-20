@@ -1,0 +1,18 @@
+[scripts]
+start = "python src/main.py runserver"
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+jupyter = "*"
+jupytext = "*"
+
+[packages]
+numpy = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"
